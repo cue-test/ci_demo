@@ -13,4 +13,4 @@ development:
   <<: *default
   database: development1
   username: root
-  password: root
+  password:
