@@ -2,7 +2,7 @@ rvm:
 - "2.2.1"
 language: ruby
 env:
-- DB=sqlite3
+- develpoment
 before_install: gem install bundler
 script:
 - bundle install  
