@@ -6,8 +6,8 @@ env:
 before_install: gem install bundler
 script:
 - bundle install  
-- bundle exec rake db:create
-- bundle exec rake db:migrate --trace
+- RAILS_ENV=development bundle exec RAIS_ENV=rake db:create
+- RAILS_ENV=development bundle exec rake db:migrate --trace
 
 
 
